@@ -1,0 +1,41 @@
+h1 {
+    color: rgb(214, 226, 43);
+    background-color: black;
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 40px;
+    font-family: 'Palette Mosaic', cursive;
+}
+#show_sketch {
+    float: right;
+    font-size: 25px;
+}
+#label, #confidence {
+    width: 20%;
+    text-align: center;
+    color: aquamarine;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 22px;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    letter-spacing: 2px;
+}
+button {
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-size: 25px;
+    font-weight: bold;
+}
+canvas {
+    border: 2px ;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from{box-shadow: 3px 3px 50px yellow;}
+    to{box-shadow: 3px 3px 50px red;}
+}
